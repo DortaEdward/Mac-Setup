@@ -1,22 +1,21 @@
 ## Mac Setup
 I'm planning on getting a new mac soon cause my current one is practecly dead. So I decided to make a repo with some of my settings and also things I'd need to install.
 
-* Brew
-* NVM
-* Figma
-* Chrome
-* MySql
-* MongoDB
-* Insomnia
-* Discord
-* VsCode
-* Alfred
-* Spectacle
-* Rectangle
-* AltTab
-* Iterm
-* Xcode
-* Notion
+- Brew | https://brew.sh/
+- NVM | https://github.com/nvm-sh/nvm
+- Figma | https://formulae.brew.sh/cask/figma
+- Chrome | https://formulae.brew.sh/cask/google-chrome#default
+- MySql | https://dev.mysql.com/downloads/mysql/
+- MongoDB | https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+- Insomnia | https://formulae.brew.sh/cask/insomnia#default
+- Discord | https://formulae.brew.sh/cask/discord#default
+- VsCode | https://formulae.brew.sh/cask/visual-studio-code#default
+- Alfred | https://formulae.brew.sh/cask/
+- Rectangle | https://formulae.brew.sh/cask/rectangle#default
+- AltTab | https://formulae.brew.sh/cask/alt-tab#default
+- Iterm | https://formulae.brew.sh/cask/iterm2#default
+- Xcode | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+- Notion | https://formulae.brew.sh/cask/notion#default
 
 * [ ] Install Brew
 * [ ] Install Xcode
@@ -26,7 +25,6 @@ I'm planning on getting a new mac soon cause my current one is practecly dead. S
   * [ ] Edit VS.Code Settings
 * [ ] Update .zshrc file
 * [ ] Install Alfred
-* [ ] Install Spectacle
 * [ ] Install Rectangle
 * [ ] Install AltTab
 * [ ] Install Insomnia
@@ -38,6 +36,23 @@ I'm planning on getting a new mac soon cause my current one is practecly dead. S
 * [ ] Install Notion
 
 
+## Vscode Settings
+- Theme: poimandres
+- Font Size: 14px
+- Tabsize: 2
+- Extentions: 
+  - Cloak
+  - DotEnv
+  - React
+  - Typescript
+  - Eslint
+  - Markdown
+  - Material Icon
+  - Prettier ESLint
+  - VSCode icon
+
+
+## .zshrc File
 ```
 export ZSH="$HOME/.oh-my-zsh"
   
